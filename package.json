@@ -7,9 +7,10 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "tslint 'src/**/*.{ts, tsx}'"
   },
   "dependencies": {
+    "@types/react-native": "^0.63.30",
     "react": "16.13.1",
     "react-native": "0.63.3"
   },
